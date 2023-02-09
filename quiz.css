@@ -1,0 +1,26 @@
+
+.answer {
+    min-width: 20px;
+    min-height: 20px;
+    padding: 10px; 
+    list-style: none;
+    color: var(--space); 
+    }
+    
+    .answer:hover{
+        color: var(--water);
+    }
+    
+    #score {
+        font-weight: bold;
+        color: rgb(50, 50, 50);
+    }
+
+    #highscore{
+        color: black;
+    }
+    #highscore2{
+        background-color: var(--space);
+        text-align: center;
+        text-align: justify;
+    }

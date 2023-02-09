@@ -37,46 +37,4 @@ width: 100vw;
 display: flex;
 flex-direction:column;
 justify-content: center;
-}
-
-.answer {
-min-width: 20px;
-min-height: 20px;
-padding: 10px; 
-list-style: none;
-color: var(--space); 
-}
-
-.answer:hover{
-    color: var(--water);
-}
-
-
-#quiz{
-    display: none;
-}
-
-#timeleft {
-    display: none;
-}
-
-#nextButton{
-  display: none;
-}
-
-#score {
-    font-weight: bold;
-    color: rgb(50, 50, 50);
-}
-
-#endGame{
-    display: block
-}
-#highscore{
-    color: black;
-}
-#highscore2{
-    background-color: var(--space);
-    text-align: center;
-    text-align: justify;
-}
+};
