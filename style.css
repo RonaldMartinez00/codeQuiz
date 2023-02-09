@@ -1,13 +1,18 @@
+:root{
+    --water:rgb(0, 234, 255);
+    --space:rgb(130, 130, 130);
+}
+
 h1 {
 text-align: center;
-color:rgb(0, 234, 255);
+color:var(--water);
 font-family: monospace;
 font-size: 300%;
 }
 
 p {
     text-align: center;
-    color: rgb(130, 130, 130);
+    color: var(--space);
     width: 40%;
     margin: auto;
 }
@@ -18,8 +23,8 @@ h2 {
   line-height: 60px;
   font-weight: bold;
   padding: 0 40px;
-  color: rgb(0, 234, 255);
-  background-color: rgb(130, 130, 130);
+  color: var(--water);
+  background-color: var(--space);
   border: none;
   max-width: 400px;
   margin-left: auto;
@@ -32,4 +37,46 @@ width: 100vw;
 display: flex;
 flex-direction:column;
 justify-content: center;
+}
+
+.answer {
+min-width: 20px;
+min-height: 20px;
+padding: 10px; 
+list-style: none;
+color: var(--space); 
+}
+
+.answer:hover{
+    color: var(--water);
+}
+
+
+#quiz{
+    display: none;
+}
+
+#timeleft {
+    display: none;
+}
+
+#nextButton{
+  display: none;
+}
+
+#score {
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+#endGame{
+    display: block
+}
+#highscore{
+    color: black;
+}
+#highscore2{
+    background-color: var(--space);
+    text-align: center;
+    text-align: justify;
 }
